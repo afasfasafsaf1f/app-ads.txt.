@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Мой сайт</title>
+    <!-- Перенаправление через HTML-тег (на всякий случай) -->
+    <meta http-equiv="refresh" content="0; url=https://github.io">
+    <title>Redirecting...</title>
 </head>
 <body>
-    <h1>Сайт успешно работает</h1>
+    <!-- Перенаправление через JavaScript для мгновенного срабатывания -->
+    <script>
+        window.location.href = "https://github.io";
+    </script>
+    <p>Если перенаправление не произошло, <a href="https://github.io">нажмите сюда</a>.</p>
 </body>
 </html>
